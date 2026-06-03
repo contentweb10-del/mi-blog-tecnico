@@ -57,4 +57,4 @@ Copia y completa este bloque para tu entrega definitiva:
 - [x] **Enlace al repositorio o snapshot de commits:** https://github.com/contentweb10-del/mi-blog-tecnico/commits/main
 - [x] **Breve reflexión sobre feedback aplicado:** Incluida. (Se abordó el fallo en el proceso de QA combinando desafío directo y empatía, separando a las personas del error para construir soluciones conjuntas sin generar actitudes defensivas).
 - [x] **Documentación clara y estructurada según plantilla:** Completada.
-- [x] **Evidencia de control de versiones:** Documentada en la sección 2.
+- [x] **Evidencia de control de versiones:** Documentada en la sección 4.
