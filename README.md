@@ -2,7 +2,7 @@
 
 ## 2. Repositorio: mi-blog-tecnico/Readme.md
 
-## 3.. Entrada de Blog: Resolviendo anomalías de tracking en un entorno de alta demanda
+## 3. Entrada de Blog: Resolviendo anomalías de tracking en un entorno de alta demanda
 
 ### Contexto
 
@@ -16,10 +16,11 @@ En las primeras horas de la prueba de estrés de la campaña, nos enfrentamos a 
 
 Detuvimos inmediatamente la inyección de tráfico y convocamos una revisión de *post-mortem* sin culpas (*blameless*). Las medidas técnicas que tomamos fueron:
 
-1. **Rollback de emergencia:** Utilizamos Git para revertir la rama de producción a la versión estable anterior a la integración del nuevo script.
-2. **Aislamiento y diagnóstico:** Llevamos el código conflictivo a un entorno de *staging* (pruebas) donde pudimos reproducir el error de forma segura.
-3. **Refactorización:** Modificamos la arquitectura de recolección de datos, moviendo la confirmación de la conversión del lado del cliente al servidor (Server-Side Tracking) para garantizar una fuente única de verdad.
-4. **Despliegue controlado:** Una vez que las pruebas de integración pasaron con éxito, lanzamos el parche mediante un *Pull Request* revisado por el equipo.
+1. Aislamiento y diagnóstico: Identificamos rápidamente que el archivo pixel-tracking.js estaba disparando el evento de forma duplicada debido a la nueva integración.
+
+2. Refactorización: Modificamos la arquitectura de recolección de datos en el código, moviendo la confirmación de la conversión del lado del cliente al servidor (Server-Side Tracking) para garantizar una fuente única de verdad.
+
+3. Despliegue rápido (Hotfix): Realizamos un commit directo en el repositorio principal para aplicar el parche de forma inmediata y detener la fuga de datos falsos de retorno de inversión.
 
 ### Aprendizajes
 
