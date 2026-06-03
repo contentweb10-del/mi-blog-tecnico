@@ -45,7 +45,7 @@ Durante la reunión de *post-mortem*, pusimos en práctica los principios de la 
 
 ## 6. Publicación
 
-*(Instrucción para ti: Copia las secciones 1, 2 y 3 en tu plataforma de publicación preferida —como Medium, Dev.to, o un blog interno—. Asegúrate de generar y copiar la URL pública para pegarla en el checklist final).*
+
 
 ---
 
@@ -53,8 +53,8 @@ Durante la reunión de *post-mortem*, pusimos en práctica los principios de la 
 
 Copia y completa este bloque para tu entrega definitiva:
 
-* [ ] **URL pública del blog o entrada:** `[Inserta aquí tu enlace real, ej: [https://tublog.com/post-terrae-tracking-fix](https://tublog.com/post-terrae-tracking-fix)]`
-* [ ] **Enlace al repositorio o snapshot de commits:** `[Inserta aquí tu enlace real al PR o commit]`
-* [ ] **Breve reflexión sobre feedback aplicado:** Incluida. (Se abordó el fallo en el proceso de QA combinando desafío directo y empatía, separando a las personas del error para construir soluciones conjuntas sin generar actitudes defensivas).
-* [ ] **Documentación clara y estructurada según plantilla:** Completada.
-* [ ] **Evidencia de control de versiones:** Documentada en la sección 2.
+- [x] **URL pública del blog o entrada:** https://github.com/contentweb10-del/mi-blog-tecnico
+- [x] **Enlace al repositorio o snapshot de commits:** https://github.com/contentweb10-del/mi-blog-tecnico/commits/main
+- [x] **Breve reflexión sobre feedback aplicado:** Incluida. (Se abordó el fallo en el proceso de QA combinando desafío directo y empatía, separando a las personas del error para construir soluciones conjuntas sin generar actitudes defensivas).
+- [x] **Documentación clara y estructurada según plantilla:** Completada.
+- [x] **Evidencia de control de versiones:** Documentada en la sección 2.
