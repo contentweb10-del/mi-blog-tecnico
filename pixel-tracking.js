@@ -1,4 +1,2 @@
-// Script inicial de tracking
-enviarEvento('conversion', datosUsuario);
-// Activador IA duplicado (El error)
-enviarEventoIA('conversion', datosUsuario);
+// Script corregido: Validación server-side implementada para evitar duplicidad
+enviarEventoServerSide('conversion_unica', datosUsuario);
