@@ -1,8 +1,4 @@
-## 1. Plataforma Blog: GitHub
-
-## 2. Repositorio: mi-blog-tecnico/Readme.md
-
-## 3. Entrada de Blog: Resolviendo anomalías de tracking en un entorno de alta demanda
+## Entrada de Blog: Resolviendo anomalías de tracking en un entorno de alta demanda
 
 ### Contexto
 
@@ -28,7 +24,7 @@ La lección principal fue que la velocidad al integrar nuevas herramientas nunca
 
 ---
 
-## 4. Documentación de Control de Versiones
+## Documentación de Control de Versiones
 
 Para asegurar la trazabilidad de la resolución, el flujo de trabajo quedó documentado en nuestro repositorio con las siguientes acciones clave:
 
@@ -37,21 +33,13 @@ Para asegurar la trazabilidad de la resolución, el flujo de trabajo quedó docu
 
 ---
 
-## 5. Reflexión: Feedback Radicalmente Sincero
+## Reflexión: Feedback Radicalmente Sincero
 
 Durante la reunión de *post-mortem*, pusimos en práctica los principios de la sinceridad radical (*radical candor*). En lugar de suavizar el error o, por el contrario, señalar con el dedo a quien autorizó el pase a producción, abordamos el fallo combinando el desafío directo con el cuidado personal. Fui transparente al señalar que nuestros protocolos de Quality Assurance (QA) fueron insuficientes y que nos saltamos pasos críticos por la prisa del lanzamiento. Al enfocar la crítica estrictamente en el *proceso* y no en las *personas*, evitamos actitudes defensivas. Esto permitió que todo el equipo colaborara activamente en diseñar los nuevos filtros de seguridad en lugar de preocuparse por proteger sus puestos, fortaleciendo enormemente la confianza del grupo.
 
 ---
 
-## 6. Publicación
-
-
-
----
-
-## 7. Checklist de Entrega Final
-
-Copia y completa este bloque para tu entrega definitiva:
+## Checklist de Entrega Final
 
 - [x] **URL pública del blog o entrada:** https://github.com/contentweb10-del/mi-blog-tecnico
 - [x] **Enlace al repositorio o snapshot de commits:** fix: migración de validación de eventos a server-side para evitar duplicidad (https://github.com/contentweb10-del/mi-blog-tecnico/commit/05f74df16f9c2c66408a9ab773d4950ad32c874a)
