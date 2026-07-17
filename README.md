@@ -41,7 +41,7 @@ Durante la reunión de *post-mortem*, pusimos en práctica los principios de la 
 
 ## Checklist de Entrega Final
 
-- [x] **URL pública del blog o entrada:** https://github.com/contentweb10-del/mi-blog-tecnico
+- [x] **URL pública del blog o entrada:** (https://github.com/contentweb10-del/mi-blog-tecnico/blob/main/README.md)
 - [x] **Enlace al repositorio o snapshot de commits:** fix: migración de validación de eventos a server-side para evitar duplicidad (https://github.com/contentweb10-del/mi-blog-tecnico/commit/05f74df16f9c2c66408a9ab773d4950ad32c874a)
 - [x] **Breve reflexión sobre feedback aplicado:** Incluida. (Se abordó el fallo en el proceso de QA combinando desafío directo y empatía, separando a las personas del error para construir soluciones conjuntas sin generar actitudes defensivas).
 - [x] **Documentación clara y estructurada según plantilla
